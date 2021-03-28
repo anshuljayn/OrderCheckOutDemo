@@ -1,0 +1,15 @@
+/bin
+/build
+/test-output
+/out
+/logs
+
+logs
+#Gradle
+/.gradle
+.gradle
+
+#Intellij
+*.iml
+/.idea
+.idea

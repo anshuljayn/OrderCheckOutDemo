@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.test.Anshul'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.accenture.atom', name: 'library-reporting-extent', version: '0.0.1', changing: true
+    compile group: 'com.accenture.atom', name: 'library-cucumber', version: '0.0.1', changing: true
+    compile group: 'com.accenture.atom', name: 'library-common', version: '0.0.1', changing: true
+}
